@@ -22,9 +22,14 @@ for(int i =0; i<goofyNames.length(); i++) {
 	//    use .charAt()
 
 	char kitKat=goofyNames.charAt(i);
+
 	// 5. Use MODULO operator (%) to identify if it is an EVEN or ODD character.
 if(i % 2 ==0) {
-	goofyNames.toLowerCase();
+	kitKat=Character.toUpperCase(kitKat);
+
+}
+else { 
+	kitKat=Character.toLowerCase(kitKat);
 }
 
 	// 6. Even characters should be made uppercase and odd characters made lowercase
@@ -32,14 +37,14 @@ if(i % 2 ==0) {
 
 
 	// 7. ADD the char to the end of the goofyName String
-
+goofyName+=kitKat;
 }
 			
 
-}
+
 		
 		// 8. Use pop-up to show user their Goofy name
-JOptionPane.showMessageDialog(null, goofyNames);
+JOptionPane.showMessageDialog(null, goofyName);
 	}
 }
 
