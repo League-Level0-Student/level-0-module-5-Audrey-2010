@@ -1,10 +1,16 @@
 
 void setup() {
-  
+  size(600,400);
+  noFill();
 }
 
 void draw() {
   
+for(int i=0; i<28; i++){
+    ellipse(10+i*4, 10+i*4, 450, 250);
+    
+    
+  }
   // Go to the recipe to run the demonstration before starting this program
   
   /*
@@ -13,4 +19,3 @@ void draw() {
   Make the rings move past each other.
   When the rings hit the side of the sketch, make them reverse their direction.
   */
-}
