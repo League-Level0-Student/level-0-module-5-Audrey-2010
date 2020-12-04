@@ -58,5 +58,10 @@ for(int g=0; g<3; g++) {
 		System.out.println();
 		}
 }
-
+for(int l=1; l<101; l+=10) {
+	for(int z=l; z<l+10; z++ ) {
+		System.out.print(z+" ");
+	}
+	System.out.println();
+}
 }}
